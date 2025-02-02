@@ -51,7 +51,14 @@
     width: 1180px;
     height: 491px;
   }
+  .footer-card{
+    margin-bottom: -145px;
+  }
   .footer-img{
     height: 415px;
     width: 330px;
+  }
+  .footer-down{
+    width: 1180px;
+    height: 454px;
   }
