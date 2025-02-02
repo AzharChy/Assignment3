@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css"> 
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <body>
+        <div class="container">
+            <!-- nav statrts -->
+            <nav class="flex justify-between mx-10 my-10">
+                <div class="flex gap-x-2 items-center">
+                    <div class="logo-image w-12 h-12">
+                        <img src="logo-header.png" alt="logo">
+                    </div>
+                    <div class="logo-title w-14 h-8 sm:hidden">
+                        <h1 class="text-xl font-bold text-center hidden sm:flex">Browse<span class="text-yellow-500">4</span>cats</h1>
+                    </div>
+                </div>
+                <div class="middle flex items-center gap-x-8 text-xl hidden sm:flex">
+                    <div>
+                        <a href="#"><p>Find a pet</p></a>
+                    </div>
+                    <div>
+                        <a href="#"><p>Breed</p></a>
+                    </div>
+                    <div>
+                        <a href="#"><p>Contact Us</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-x-8 hidden sm:flex">
+                      <div>
+                        <i class="fa-regular fa-bell w-6 h-6 text-center"></i>
+                      </div>
+                      <div>
+                        <i class="fa-solid fa-magnifying-glass w-6 h-6 justify-center"></i>
+                      </div>
+                      <div>
+                        <button class="border-solid border-2 border-yellow-500 w-36 h-11 p-2 rounded-lg text-xl hover:bg-sky-700">Login</button>
+                      </div>
+                      <div>
+                        <button class="bg-yellow-500 w-36 h-11 p-2 rounded-lg text-xl">Register</button>
+                      </div>
+                      <!-- <div class="block sm:hidden">
+                        <i class="fa-solid fa-bars block sm:hidden"></i>
+                      </div> -->
+                      
+                </div>
+            </nav>
+            <!-- nav ends -->
+
+            <!-- banner section starts -->
+
+            <div class="banner relative max-w-7xl ml-36">
+              <div class="text-overlay absolute top-1/2 left-0  transform -translate-x-1/2 -translate-y-1/2 text-left text-white">
+                  <h1 class="banner-title font-bold text-5xl text-black text-left ml-80">Pamper Your Pet,<br> Because They Deserve<br> the Best</h1>
+                  <p class="banner-text mt-4 text-black text-left ml-80">Discover a world of treats, toys, and essentials handpicked for<br> your furry friends. Shop now and make tails wag with joy!</p>
+                  <button class="bg-yellow-500 w-39 h-12 p-2 rounded-lg text-xl mt-4 ml-80">Find a Pet</button>
+              </div>
+              <div class="banner-image">
+                  <img class="max-w-5xl ml-36" src="cat-big.png" alt="big-cat">
+              </div>
+          </div>
+          
+              <!-- banner section ends -->
+
+              <!-- browse by categories strts -->
+              <div class="browse-category mx-5">
+
+              <div>
+                <h1 class="browse-title text-4xl">Browse By Categories</h1>
+              </div>
+
+              <div class="browse-card mt-4 grid grid-cols-2 gap-8 sm:grid-cols-2 md:grid-cols-7">
+                <!-- Card 1 -->
+                <div class="w-44 h-48 bg-orange-400 rounded-lg flex flex-col items-center justify-center">
+                  <img class="object-cover mx-auto bg-white border-solid border-2 rounded-full p-1 mt-4" src="dog-cartoon.png" alt="dog-cartoon">
+                  <h3 class="text-center text-black font-bold text-xl mt-4">Dog</h3>
+                  <p class="text-center text-black mt-2">3 items</p>
+                </div>
+              
+                <!-- Card 2 -->
+                <div class="w-44 h-48 bg-orange-400 rounded-lg flex flex-col items-center justify-center">
+                  <img class="object-cover mx-auto bg-white border-solid border-2 rounded-full p-1 mt-4" src="fish-cartoon.png" alt="fish-cartoon">
+                  <h3 class="text-center text-black font-bold text-xl mt-4">Fish</h3>
+                  <p class="text-center text-black mt-2">3 items</p>
+                </div>
+              
+                <!-- Card 3 -->
+                <div class="w-44 h-48 bg-orange-400 rounded-lg flex flex-col items-center justify-center">
+                  <img class="object-cover mx-auto bg-white border-solid border-2 rounded-full p-1 mt-4" src="cat-cartoon.png" alt="cat-cartoon">
+                  <h3 class="text-center text-black font-bold text-xl mt-4">Cat</h3>
+                  <p class="text-center text-black mt-2">3 items</p>
+                </div>
+              
+                <!-- Card 4 -->
+                <div class="w-44 h-48 bg-orange-400 rounded-lg flex flex-col items-center justify-center">
+                  <img class="object-cover mx-auto bg-white border-solid border-2 rounded-full p-1 mt-4" src="bird-cartoon.png" alt="bird-cartoon">
+                  <h3 class="text-center text-black font-bold text-xl mt-4">Birds</h3>
+                  <p class="text-center text-black mt-2">3 items</p>
+                </div>
+              
+                <!-- Card 5 -->
+                <div class="w-44 h-48 bg-orange-400 rounded-lg flex flex-col items-center justify-center">
+                  <img class="object-cover mx-auto bg-white border-solid border-2 rounded-full p-1 mt-4" src="mouse-cartoon.png" alt="mouse-cartoon">
+                  <h3 class="text-center text-black font-bold text-xl mt-4">Small Pet</h3>
+                  <p class="text-center text-black mt-2">3 items</p>
+                </div>
+              
+                <!-- Card 6 -->
+                <div class="w-44 h-48 bg-orange-400 rounded-lg flex flex-col items-center justify-center">
+                  <img class="object-cover mx-auto bg-white border-solid border-2 rounded-full p-1 mt-4" src="rabbit-cartoon.png" alt="rabbit-cartoon">
+                  <h3 class="text-center text-black font-bold text-xl mt-4">Rabbit</h3>
+                  <p class="text-center text-black mt-2">3 items</p>
+                </div>
+              </div>
+              
+               
+        </div>
+        
+</body>
+</html>
