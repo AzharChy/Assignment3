@@ -6,6 +6,11 @@
     list-style-type: none;
     font-family: "Sora", serif;
 }
+.adlam{
+  font-family: "ADLaM Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .banner{
     margin-top: 350px;
 }
@@ -61,4 +66,10 @@
   .footer-down{
     width: 1180px;
     height: 454px;
+  }
+
+  @media screen and (max-width: 768px){
+    .footer-down{
+      height: 700px
+    }
   }
