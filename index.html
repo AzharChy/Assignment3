@@ -16,69 +16,55 @@
 <body>
     <body>
         <div class="container">
-            <!-- nav statrts -->
-            <nav class="flex justify-between mx-10 my-10 bg-[#FFF9F4]">
-                <div class="flex gap-x-2 items-center">
-                    <div class="logo-image w-12 h-12">
-                        <img src="logo-header.png" alt="logo">
-                    </div>
-                    <div class="logo-title w-14 h-8 sm:hidden">
-                        <h1 class="text-xl font-bold text-center hidden sm:flex">Browse<span class="text-yellow-500">4</span>cats</h1>
-                    </div>
-                </div>
-                <div class="middle flex items-center gap-x-8 text-xl hidden sm:flex">
-                    <div>
-                        <a href="#"><p>Find a pet</p></a>
-                    </div>
-                    <div>
-                        <a href="#"><p>Breed</p></a>
-                    </div>
-                    <div>
-                        <a href="#"><p>Contact Us</p></a>
-                    </div>
-                </div>
-                <div class="flex gap-x-8 hidden sm:flex">
-                      <div>
-                        <i class="fa-regular fa-bell w-6 h-6 text-center"></i>
-                      </div>
-                      <div>
-                        <i class="fa-solid fa-magnifying-glass w-6 h-6 justify-center"></i>
-                      </div>
-                      <div>
-                        <button class="border-solid border-2 border-yellow-500 w-36 h-11 p-2 rounded-lg text-xl hover:bg-sky-700">Login</button>
-                      </div>
-                      <div>
-                        <button class="bg-yellow-500 w-36 h-11 p-2 rounded-lg text-xl">Register</button>
-                      </div>
-                      <div class="sm:hidden">
-                        <i class="fa-solid fa-bars block"></i>
-                      </div>
-                      
-                </div>
-            </nav>
-            <!-- nav ends -->
-            
+           <!-- Navigation -->
+<nav class="flex mt-12 mb-6 sm:justify-between mx-10 bg-[#FFF9F4]">
+  <div class="flex gap-x-2 items-center">
+      <div class="logo-image w-12 h-12">
+          <img src="logo-header.png" alt="logo">
+      </div>
+      <div class="logo-title w-14 h-8 sm:hidden">
+          <h1 class="text-xl font-bold text-center hidden sm:flex">Browse<span class="text-yellow-500">4</span>cats</h1>
+      </div>
+  </div>
+  <div class="middle flex items-center gap-x-8 text-xl hidden sm:flex">
+      <div><a href="#"><p>Find a pet</p></a></div>
+      <div><a href="#"><p>Breed</p></a></div>
+      <div><a href="#"><p>Contact Us</p></a></div>
+  </div>
+  <div class="flex justify-center gap-x-8 hidden sm:flex">
+      <div><i class="fa-regular fa-bell mt-4 w-12 h-12 text-center"></i></div>
+      <div><i class="fa-solid fa-magnifying-glass mt-4 w-6 h-6 justify-center"></i></div>
+      <div>
+          <button class="border-solid border-2 border-yellow-500 w-36 h-11 p-2 rounded-lg text-xl hover:bg-sky-700">Login</button>
+      </div>
+      <div>
+          <button class="bg-yellow-500 w-36 h-11 p-2 rounded-lg text-xl">Register</button>
+      </div>
+      <div class="sm:hidden">
+          <i class="fa-solid fa-bars"></i>
+      </div>
+  </div>
+</nav>
+<!-- Animated Image -->
+<div class="animate-pulse mt-12 flex justify-center items-center">
+  <img src="cute-dog-mid.png" class="w-48 h-48" alt="Spinning image" />
+</div>
 
-            <!-- banner section starts -->
+<!-- Banner Section -->
+<div class="banner mt-44 sm:relative w-7xl flex items-center">
+  <div class="text-overlay absolute sm:relative sm:pl-10">
+      <h1 class="banner-title font-bold text-5xl text-black">Pamper Your Pet,<br> Because They Deserve<br> the Best</h1>
+      <p class="banner-text mt-4 text-[rgba(17,17,17,0.7)]">
+          Discover a world of treats, toys, and essentials handpicked for<br> your furry friends. Shop now and make tails wag with joy!
+      </p>
+      <button class="bg-yellow-500 w-39 h-12 p-2 rounded-lg text-xl text-black mt-4">Find a Pet</button>
+  </div>
+  <div class="banner-image">
+      <img class="max-w-5xl ml-10" src="cat-big.png" alt="big-cat">
+  </div>
+</div>
 
-            <div class="banner relative max-w-7xl ml-36">
-              <div class="text-overlay absolute top-1/2 sm:left-0  transform -translate-x-1/2 -translate-y-1/2 text-left text-white">
-                  <h1 class="banner-title font-bold text-5xl text-black text-left ml-80">Pamper Your Pet,<br> Because They Deserve<br> the Best</h1>
-                  <p class="banner-text mt-4 text-[rgba(17,17,17,0.7)] text-left ml-80">Discover a world of treats, toys, and essentials handpicked for<br> your furry friends. Shop now and make tails wag with joy!</p>
-                  <button class="bg-yellow-500 w-39 h-12 p-2 rounded-lg text-xl text-black mt-4 ml-80">Find a Pet</button>
-              </div>
-              <div class="banner-image">
-                  <img class="text-left :max-w-5xl ml-36" src="cat-big.png" alt="big-cat">
-              </div>
-          </div>
-          
 
-          <div class="animate-pulse">
-              
-            <img src="cute-dog-mid.png" class="w-48 h-48" alt="Spinning image" />
-          </div>
-          
-              <!-- banner section ends -->
 
               <!-- browse by categories strts -->
               <div class="browse-category mx-5">
